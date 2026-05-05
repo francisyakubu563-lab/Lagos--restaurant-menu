@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lagos Bites Menu</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; padding: 20px; }
+  .container { max-width: 500px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+  h1 { color: #e67e22; text-align: center; }
+  .item { border-bottom: 1px solid #eee; padding: 10px 0; display: flex; justify-content: space-between; }
+  .price { color: #27ae60; font-weight: bold; }
+  .whatsapp { background: #25d366; color: white; padding: 12px; text-align: center; border-radius: 5px; margin-top: 20px; display: block; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Lagos Bites Menu</h1>
+  <div class="item"><span>Jollof Rice + Chicken</span><span class="price">₦3,500</span></div>
+  <div class="item"><span>Pounded Yam + Egusi</span><span class="price">₦4,000</span></div>
+  <div class="item"><span>Suya Plate</span><span class="price">₦2,500</span></div>
+  <a href="https://wa.me/2348163831822" class="whatsapp">Order on WhatsApp</a>
+</div>
+</body>
+</html>
